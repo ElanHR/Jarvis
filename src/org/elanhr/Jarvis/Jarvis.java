@@ -165,7 +165,7 @@ public class Jarvis implements MessageListener{
 
 
 		// provide your login information here
-		c.login("elans.jarvis@gmail.com", "jarvis321");
+		c.login("your.email@gmail.com", "your.password");
 
 
 		c.displayBuddyList();
@@ -173,11 +173,11 @@ public class Jarvis implements MessageListener{
 		System.out.println("Enter your message in the console.");
 		//System.out.println("All messages will be sent to abhijeet.maharana");
 		System.out.println("-----\n");
-		c.sendMessage("elan.hourticolon.retzler@gmail.com", "hello!" );
+		c.sendMessage("person@gmail.com", "hello!" );
 		while( !(msg=br.readLine()).equals("bye"))
 		{
 			// your buddy's gmail address goes here
-			c.sendMessage(msg, "elan.hourticolon.retzler@gmail.com");
+			c.sendMessage(msg, "person@gmail.com");
 		}
 
 		c.disconnect();
